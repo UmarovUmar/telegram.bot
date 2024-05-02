@@ -641,6 +641,4 @@ def delete_file_or_link(call):
         bot.send_message(user_id, f"Файл '{file_to_delete}' не существует в категории '{category}'. Пожалуйста, выберите еще раз.")
 
 
-
-
 bot.polling()
